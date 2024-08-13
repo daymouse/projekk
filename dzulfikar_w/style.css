@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');:root{
+    color: #1d1d1d;
+    background: #fec303;
+}
+body, html {
+    padding:0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+nav{
+  background-color:  #1d1d1d;
+  padding: 1rem 7%;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 86%;
+}
+ a{
+    text-decoration: none;
+    padding: 1rem;
+    color: #fff;
+   
+  
+ 
+}
+a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+    transition: 0.8s;
+    color: #fec303
+}
+span{
+   
+    font-weight: 700;
+    font-size: 2.4rem ;
+    color: #fec303 ;
+}
+
+/*style login*/
+form{
+    text-align: center;
+    border: 3px solid black;
+    width:550px;
+    height: 350px;
+    justify-content: center;
+    margin: 160px;
+    border-radius: 20px;
+    box-shadow: 3px 5px 8px 8px;
+    background-color: rgb(243, 199, 22, 0.5);
+    backdrop-filter: blur(9px);
+}
+
+input{
+    margin:10px;
+    width: 80%;
+    height: 15%;
+    text-align: center;
+    font-size: 1.4rem;
+    border-radius: 10px;
+    background-color: rgb(243, 199, 22, 0.5);
+    font-family: "Poppins", sans-serif;
+}
+input:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+
+}
+button{
+    margin:20px;
+    width:180px;
+    height: 30px;
+    background-color: rgb(243, 199, 22, 0.5);
+    border-radius: 1rem;
+    font-size: 1rem;
+}
+button:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+
+}
+::placeholder{
+    color:#1d1d1d
+}
+/*biodata*/
+main{
+    display: flex;
+    align-items: center; 
+    height: 100vh;
+    background-image: url('aset/bg_biod.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    color: aliceblue;
+}
+main span {
+    padding:1rem 10%;
+    font-size: 4rem;
+    
+}
+main span a{
+    font-size: 2rem;
+    color: aliceblue;
+}
+main span a:hover{
+    color: #fec303;
+    font-size: 2.3rem;
+    transform: translateY(-10px);
+    box-shadow: 4px 5px 8px 8px;
+    text-decoration: none;
+
+}
+.about{
+    text-align: center;
+    margin:3rem;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    width:40%;
+
+    
+}
+.container4{
+    height: 100vh;
+    margin-top: 6rem;
+   
+}
+.projek{
+    height: 100vh;
+    width:100%;
+}
+
+.projek img{
+    width:40%   
+}
+.projek img:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+
+}
+
+/*dashboard*/
+.dash{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(aset/bg_dash.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    color: #fec303;
+}
+
+
+/*galery*/
+.galery{
+    height: 100vh;
+    text-align: right;
+    justify-content: right;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    background-image: url(aset/bg_gal.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    padding:2rem 10%;
+}
+.foto{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 10% ;
+}
+.form{
+    margin-top: 10rem;
+    width: 48%;
+    height: 50%;
+    border: 3px solid #1d1d1d;
+    box-shadow:  4px 4px 4px 4px;
+    backdrop-filter: blur(9px);  
+}
+.form:hover{
+    transform: translateY(-20px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.deskripsi{
+    font-size: 1rem;
+    color: #1d1d1d;
+}
+.galery .gal a{
+    color: aliceblue;
+}
+.galery .gal a:hover{
+    color:#fec303;
+}
+@media(max-width: 1136px){
+   html{
+    font-size: 75%;
+   }
+}
+@media(max-width: 768px){
+    html{
+     font-size: 62.5%;
+    }
+ }
+ @media(max-width: 450px){
+    html{
+     font-size: 55%;
+    }
+    /*biodata*/
+    .about{
+        width:70%;
+    }
+    .projek{
+        display: row;
+    }
+    .projek img{
+        width: 70%;
+        margin: 2rem
+    }
+    .foto{
+        display: grid;
+    }
+    .form{
+        width: 85%;
+        height: auto;
+        margin: auto;
+    }
+ }
+
+
+

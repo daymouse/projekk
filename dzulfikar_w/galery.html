@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+       
+        </style>
+          <script src="https://unpkg.com/feather-icons"></script>
+        
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <span >Galery</span>
+        <div class="container">
+            <a href="dashboard.html">HOME</a>
+            <a href="biodata.html">BIODATA</a>
+            <a href="galery.html">GALERY</a>
+        </div>
+        <a href="login.html" class="log"> <i data-feather="log-out"></i></a>
+    </nav>
+    <div class="galery">
+        <div class="gal" style="color: #fec303;">
+            <h1 style="font-size: 3.8rem;">Koleksi Foto Saya</h1> 
+            <a href="#foto" target="_blank">
+                    <i data-feather="camera"></i>
+                </a>   
+        </div>
+    </div>
+    <div class="foto" id="foto">
+        <div class ="form">
+            <img  src="aset/pantai_parangtritis.jpg" width="100%">
+            <a class="deskripsi" style="margin-left:1rem ;" href="https://maps.app.goo.gl/FxyyL6QJ8LSRAHFR6">Pantai parangtritis/2023</a>
+        </div>
+        <div class ="form">
+            <img  src="aset/gambar_pantai.jpeg" width="100%">
+            <a class="deskripsi" style="margin-left:1rem ;" href="https://maps.app.goo.gl/CyN77Vj97G3sbQHc7">Pantai kesirat/2023</a>
+        </div>
+    </div>
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
